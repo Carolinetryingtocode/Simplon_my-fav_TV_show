@@ -1,0 +1,192 @@
+@font-face{
+    font-family: "Spicy Rice";
+    src:url(Font/"SpicyRice-Regular.ttf");
+}
+
+@font-face {
+    font-family:"Open Sans" ;
+    src: url(Font/"OpenSans-Regular.ttf");
+}
+
+
+body{
+    color: white;
+    background: black;
+    font-family: "Spicy Rice", cursive;
+    font-weight: lighter;
+    }
+
+
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+/* ACCUEIL */
+.accueil{
+    background-image: url(BGaccueil.png);
+    width: 1440px;
+    height: 684px;
+}
+
+.accueil h1{
+    font-size: 90px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.accueil ol{
+    font-size: 25px;
+    padding-left: 65px;
+    padding-top: 200px;
+}
+
+li{
+    text-decoration: none;
+}
+
+
+
+/* SYNOPSIS */
+.synopsis{
+    width: 1440px;
+    height: 376px;
+}
+
+.synopsis p{
+    font-size: 25px;
+    padding: 20px;    
+}
+
+
+
+/* PERSONNAGES */
+.personnages{
+    width: 1440px;
+    height: 729px;
+}
+
+.personnages table{
+    width: 1405px;
+    height: 520px ;
+    padding: 20px 20px;
+}
+
+.personnages td{
+    font-size: 22px;
+    border: 1px solid white;
+}
+
+.cell1{
+    text-decoration: #BF1B1B; 
+}
+
+
+.cell2{
+    text-align: center;
+    width: 130px;
+    height: 130px;
+} 
+
+.cell3{
+    width: 1137px;
+    height: 130px;
+    padding-left: 10px
+}
+
+
+
+/* SAISONS */
+.saisons{
+    background-image: url(BGsaisons.png);
+    width: 1440px;
+    height: 879px;
+}
+
+.saisons figcaption{
+    font-size: 30px;
+}
+
+.saisons iframe{
+    width: 374px;
+    height:127.12px ;
+    border: 1px solid white;
+}
+
+
+
+/* CONTACT */
+.contact{
+    width: 1440px ;
+    height: 552px;
+}
+
+.contact textarea{
+    color: #BF1B1B;
+    font-size: 20px;
+    font-family: "Spicy Rice", cursive;
+    font-weight: lighter;
+}
+
+.nom{
+    width:495px ;
+    height: 51px;
+    margin: 15px;
+}
+
+.email{
+    width:495px ;
+    height: 51px;
+    margin: 15px;
+}
+
+.message{
+    width:495px ;
+    height: 148px; 
+    margin: 15px;
+}
+
+.contact input{
+    color: white;
+    font-size: 20px;
+    font-family: "Spicy Rice", cursive;
+    font-weight: lighter;
+    background: #BF1B1B;
+    width: 151px;
+    height: 51px;
+    border-radius: 31px;
+    border: 1px;
+    margin: 15px;
+}
+
+
+
+/* FOOTER */
+.footer{
+    font-family: "Open Sans";
+    width: 1440px;
+    height: 145px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer p{
+    font-size: larger;
+}
+
+
+/* 1. PROBLÈME DE RÉSOLUTION D'ÉCRAN? (ÉCART ENTRE LES BOX?) */
+/* 2. MARGIN ET PADDING */
+/* 3. TYPO TROP GRASSE */
+
+/* 4. QUID PHOTO BORDURE NOIRE*/
+/* 5. QUID BACKGROUND IMAGE SAISONS COUPÉES AU NIVEAU DES FEUX D'ARTIFICE */
+/* 6. TROP D'ESPACE ENTRE SAISONS ET CONTACT */
+/* 7. COULEUR DU TEXTE DANS FORMULAIRE */
+/* 8. ESPACE ENTRE CHAQUE RUBRIQUE DU FORMULAIRE */
+
+
+
